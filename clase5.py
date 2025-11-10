@@ -11,3 +11,11 @@ numero = 0
 while numero <=10 :
     print("hola", numero)
     numero = numero +1
+
+while numero < 100 :
+    print(numero)
+    numero += 1
+    if numero == 50:
+        print("se rompe el bucle")
+        break
+    
