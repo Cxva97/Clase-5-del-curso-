@@ -18,4 +18,9 @@ while numero < 100 :
     if numero == 50:
         print("se rompe el bucle")
         break
-    
+
+#menu
+opcion = ""
+while opcion != "3":
+  print("es mi menu")
+  opcion= input("ingrese la opcion deseada, 3 para salir")
