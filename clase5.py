@@ -21,6 +21,16 @@ while numero < 100 :
 
 #menu
 opcion = ""
-while opcion != "3":
+while opcion != "3": #opcion sea diferente de 3
   print("es mi menu")
   opcion= input("ingrese la opcion deseada, 3 para salir")
+
+#acumulador
+numero = 8
+numero += 1 # 8 + 1 = 9
+numero -= 1 # 8 - 1 = 7
+
+#For es el bucle mas utilizado por su robustez => PARA
+
+for numero in range(1,10):
+    print(numero)
